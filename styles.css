@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+}
+body{
+    padding: 1px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar li{
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+#navbar header img{
+    height: 60px;
+    width: 60px;
+}
+#navbar header{
+    display: inline;
+}
+#navbar header h2{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar li{
+float: right;
+margin: 5px;
+list-style: none;
+/* top: 0; */
+}
+#navbar a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.nav{
+    background-color: #1F2937;
+}
+
+/* .item1 { grid-area: header; } */
+
+#Intro{
+    background-color: #1F2937;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* grid-template-areas: ;
+    grid-area: auto; */
+    padding-top: 15px;
+}
+#intro-text{
+    font: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    float: left;
+}
+#intro h2{
+    float: left;
+}
+#Intro p{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Square Peg', cursive;
+}
+/* #intro-text, */
+ #intro button, #intro p{
+    position: absolute;
+    left: 15px;
+}
+#intro-text button{
+    background-color: #3882F6;
+}
+#intro-img {
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    right: 30px;
+}
+#Intro button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 30px;
+    width: 70px;
+}
+
+#review, #Intro, #types {
+    width: auto;
+height: 17rem;
+}
+#types h4{
+text-align: center;
+margin: auto;
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.figs figcaption{
+    font-family:'Square Peg', cursive;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+#boxes{
+    display: flex;
+    flex direction: row;
+    justify-content: space-evenly;
+}
+#boxes img{
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6 ;
+    border-radius: 25%;
+}
+#review  {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+#review blockquote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    max-width: 750px;
+    text-align: center;
+    margin-top: 45px;
+}
+#review figcaption{
+    font-weight: bold;
+    float: right;
+}
+#action{
+    height: 150px;
+    width: 1200px;
+}
+
+#action .call{
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 25%;
+}
+#action{
+    display: flex;
+    justify-content: center;
+}
+#action{
+    width: auto;
+    margin: auto;
+}
+.call{
+    background-color: #3882F6;
+    height: 150px;
+ width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.call button{
+    background-color: #3882F6;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 25%;
+
+}
+.call p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+
+}
+
+
+/* font-family: 'BhuTuka Expanded One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Square Peg', cursive; */
