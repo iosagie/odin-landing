@@ -1,2 +1,2 @@
 # odin-landing
-Odin Landing Page Product
+Odin Landing Page Project
